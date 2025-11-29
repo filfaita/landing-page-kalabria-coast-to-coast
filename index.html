@@ -63,15 +63,15 @@
       class="sticky top-0 z-50 w-full bg-content-light/80 dark:bg-content-dark/80 backdrop-blur-md border-b border-solid border-border-color dark:border-gray-700">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-          <div class="flex items-center gap-4 text-text-primary dark:text-white">
-            <div class="text-secondary text-2xl">
-              <span class="material-symbols-outlined">crossword</span>
-            </div>
-            <h2 class="text-text-primary dark:text-white text-lg font-bold tracking-[-0.015em]">EUROPE GUEST</h2>
+          <div class="flex items-center gap-2 text-text-primary dark:text-white">
+            <img src="logo-europeguest.jpg" alt="Europe Guest Logo" class="h-10 w-auto">
+            <h1 class="text-xl font-bold tracking-tight">EUROPE GUEST</h1>
           </div>
           <div class="hidden md:flex items-center gap-9">
             <a class="text-text-primary dark:text-gray-300 hover:text-secondary dark:hover:text-white text-sm font-medium"
               href="#itinerario">Itinerario</a>
+            <a class="text-text-primary dark:text-gray-300 hover:text-secondary dark:hover:text-white text-sm font-medium"
+              href="#chi-siamo">Chi Siamo</a>
             <a class="text-text-primary dark:text-gray-300 hover:text-secondary dark:hover:text-white text-sm font-medium"
               href="#recensioni">Recensioni</a>
             <a class="text-text-primary dark:text-gray-300 hover:text-secondary dark:hover:text-white text-sm font-medium"
@@ -95,43 +95,206 @@
     </header>
     <!-- Main Content -->
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+      <!-- Desktop Hero Section (Full Width) -->
+      <section class="hidden lg:block relative mb-12">
+        <!-- Badges Row -->
+        <div class="flex items-center gap-4 mb-4">
+          <!-- Talking Icon -->
+          <div
+            class="bg-white/90 backdrop-blur text-primary px-4 py-2 rounded-lg shadow-lg flex items-center gap-2 border border-gray-100">
+            <span class="material-symbols-outlined">calendar_month</span>
+            <span class="font-bold">3 giorni - 2 notti</span>
+          </div>
+          <!-- Reviews Badge -->
+          <div
+            class="bg-white/90 backdrop-blur p-2 rounded-lg shadow-lg flex items-center gap-2 border border-gray-100">
+            <div class="flex text-feedback">
+              <span class="material-symbols-outlined text-sm">star</span>
+              <span class="material-symbols-outlined text-sm">star</span>
+              <span class="material-symbols-outlined text-sm">star</span>
+              <span class="material-symbols-outlined text-sm">star</span>
+              <span class="material-symbols-outlined text-sm">star</span>
+            </div>
+            <div class="flex -space-x-2 ml-2">
+              <div
+                class="w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center text-white text-[10px] font-bold">
+                f</div>
+              <div
+                class="w-5 h-5 rounded-full bg-red-500 flex items-center justify-center text-white text-[10px] font-bold">
+                G</div>
+            </div>
+            <span class="text-xs font-bold text-text-primary">+100 recensioni</span>
+          </div>
+        </div>
+
+        <!-- Collage -->
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 h-[600px] rounded-xl overflow-hidden">
+          <!-- Main Image (Left) -->
+          <div class="col-span-2 row-span-2 relative bg-cover bg-center group"
+            style='background-image: url("hero-bg-new.png");'>
+            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors"></div>
+
+            <!-- Title Overlay -->
+            <div class="absolute bottom-10 left-10 text-white max-w-2xl">
+              <h1 class="text-6xl font-black tracking-tight mb-4 drop-shadow-lg">
+                Cammino Kalabria Coast to Coast
+              </h1>
+              <h2 class="text-2xl font-medium drop-shadow-md">
+                Dallo Ionio al Tirreno a piedi attraverso una regione sorprendente
+              </h2>
+            </div>
+          </div>
+
+          <!-- Side Images -->
+          <div class="col-span-1 row-span-1 bg-cover bg-center"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRg7VvWmBuqyzcFO3mIdi2UiTnj8zSjdna-nldaOiNkYawWM7V-oW85k7tGzvTjBwFq3YJwlKaVCtL5Mnm3d_LRC7m41Pw5bZEVHhUNIyKnhAhYmO0KsUpvvhSCyXDt8-4FfnLrMOOzHjRy7wT25fTq1GPjrkmH4BqqI3Z4T7f8nw7sjJ7ysbhswHtxU37-9zAB7-cKs3tAspGeRYhdDDBLK8GxSlwzMvXyE5x3fCPtCYZHw8AGumJsrkh5BGwhPBFB4hbxZzcUX3a");'>
+          </div>
+          <div class="col-span-1 row-span-1 bg-cover bg-center"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKxD6GwxzgSnS_HdPaOltWKs8KAdHoBh5Mx1Xi1xDOVp5CxhcVxfpCFMRfgFo7TUgIRoXDEffkYw9Z_KVbBrgqBqjSODxPvx0FITVJfggDxyNwAh0mYOGG28Z6EpLRc-MHDVzNzWhEet_E4PLZcXBq7eM1EBYNeHK8y_pANz8Hy0UGRw-OCM9cNT1eVa7wY8WIkOW7qycnuW_3XbWnafAhuJyepGB_HYAnUckPIF8sYqeVQhayW1M7gi77aaDyE8KcIO9SJYMzZd6T");'>
+          </div>
+
+          <!-- Bottom Right with Button -->
+          <div class="col-span-2 row-span-1 relative bg-cover bg-center"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5j25UbVsFdBuBWxBJB0GrrFMUjnt4QeO5Sb6HZJUOYggq3kC6aqwJf_WTPDn9NdbRbx2h_AB_CaqAPd31tFcGucve6y5-vwL1StwkYOYt801_n6p9gzYpxeHEoREFRjE-2Sce-kkyQ10ThtL0Y5Mkq1470HpTDYU-GTpOaxGrod3EyO4COXEDvkCKK0FPNuJdz0ZtGidXgnvEz3Q7qmoxeotR0l9b-pbbDXZvau-bwk7m_fwdh3h9Cx9ssqLuh38OZEy5qvoRc7pX");'>
+            <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+              <button id="see-more-photos-btn"
+                class="bg-white text-text-primary px-6 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors flex items-center gap-2">
+                <span class="material-symbols-outlined">grid_view</span>
+                Vedi altre foto
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Desktop Description Text -->
+
+      </section>
+
       <div class="lg:grid lg:grid-cols-3 lg:gap-8">
         <!-- Left Content Column -->
         <div class="lg:col-span-2 space-y-12">
-          <!-- Hero Section -->
-          <section>
-            <div class="flex flex-col gap-6">
-              <div class="flex flex-col gap-2 text-left">
-                <h1 class="text-secondary dark:text-blue-300 text-4xl font-black tracking-[-0.033em] md:text-5xl">
-                  Kalabria
-                  Coast to Coast</h1>
-                <h2 class="text-text-primary dark:text-gray-300 text-base font-normal md:text-lg">Un viaggio
-                  indimenticabile attraverso i paesaggi mozzafiato della Calabria, da una costa all'altra.</h2>
+          <!-- Desktop Description Text (Moved) -->
+          <div class="hidden lg:flex flex-col gap-4">
+            <h3 class="text-2xl font-bold text-secondary dark:text-blue-300 mb-4">Kalabria Coast To Coast: il trekking
+              tra due mari</h3>
+            <div id="desktop-text-container">
+              <p class="text-text-secondary dark:text-gray-400 text-lg leading-relaxed">
+                Il Cammino Kalabria Coast to Coast è un trekking di 55 km che attraversa la Calabria, dalla costa ionica
+                a
+                alla costa tirrenica. Una vacanza che mette insieme mare e montagna, relax e trekking, compagnia e
+                silenzio. Con passo lento e spirito avventuroso ci addentreremo tra distese di ulivi secolari e filari
+                di
+                vite. Troveremo refrigerio all’ombra di boschi di castagni. Ci fermeremo per gustosi picnic tra faggi
+                secolari o lungo le sponde di un lago. Passo dopo passo scopriremo un percorso dai panorami sorprendenti
+                che anche la rivista americana TIME ha deciso di inserire tra le migliori 50 destinazioni di tutto il
+                mondo: THE WORLD’S GREATEST PLACES OF 2022
+              </p>
+              <button id="desktop-read-more-btn" class="text-primary font-bold hover:underline text-left w-fit mt-2">
+                Leggi tutto...
+              </button>
+              <div id="desktop-more-content" class="hidden space-y-4 mt-4 text-lg leading-relaxed">
+                <h3 class="text-xl font-bold text-secondary dark:text-blue-300">Kalabria coast to coast: tappe e
+                  percorso
+                </h3>
+                <p class="text-text-secondary dark:text-gray-400">
+                  Partiremo dalle spiagge di Soverato sulla costa degli Aranci dove trascorreremo la prima serata per
+                  conoscerci, rilassarci e testare le specialità locali. Passeremo poi dalle infradito alle scarpe da
+                  trekking e attraverseremo la zona montana delle Serre calabresi nel punto più stretto d’Italia.
+                </p>
+                <p class="text-text-secondary dark:text-gray-400">
+                  Lungo il tragitto conosceremo l’accoglienza dei piccoli borghi di San Vito sullo Ionio e Monterosso
+                  Calabro, esploreremo l’oasi naturalistica del lago Angitola e cammineremo nell’area archeologica della
+                  città normanna di Rocca Angitola. Lungo la terza tappa scorgeremo una sottile linea blu scuro
+                  all’orizzonte: è la nostra meta che si avvicina, il sentiero è in discesa. Nelle giornate più limpide
+                  potremmo scorgere in lontananza il profilo di Stromboli.
+                </p>
+                <p class="text-text-secondary dark:text-gray-400">
+                  Il cammino calabrese si conclude a Pizzo, piccolo borgo arroccato su un promontorio di tufo della
+                  Costa
+                  degli Dei. L’ultima serata la trascorreremo qui, degustando il famoso tartufo e lasciandoci con un
+                  tramonto mozzafiato sulle Isole Eolie.
+                </p>
+                <button id="desktop-hide-btn" class="text-primary font-bold hover:underline text-left w-fit">
+                  Nascondi
+                </button>
               </div>
-              <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div
-                  class="col-span-2 row-span-2 rounded-xl bg-center bg-no-repeat bg-cover min-h-[250px] md:min-h-[400px]"
-                  data-alt="A stunning coastal view in Calabria with a dramatic cliffside village."
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRg7VvWmBuqyzcFO3mIdi2UiTnj8zSjdna-nldaOiNkYawWM7V-oW85k7tGzvTjBwFq3YJwlKaVCtL5Mnm3d_LRC7m41Pw5bZEVHhUNIyKnhAhYmO0KsUpvvhSCyXDt8-4FfnLrMOOzHjRy7wT25fTq1GPjrkmH4BqqI3Z4T7f8nw7sjJ7ysbhswHtxU37-9zAB7-cKs3tAspGeRYhdDDBLK8GxSlwzMvXyE5x3fCPtCYZHw8AGumJsrkh5BGwhPBFB4hbxZzcUX3a");'>
-                </div>
-                <div class="rounded-xl bg-center bg-no-repeat bg-cover min-h-[120px] md:min-h-0"
-                  data-alt="A sunny beach in Calabria with clear blue water and umbrellas."
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKxD6GwxzgSnS_HdPaOltWKs8KAdHoBh5Mx1Xi1xDOVp5CxhcVxfpCFMRfgFo7TUgIRoXDEffkYw9Z_KVbBrgqBqjSODxPvx0FITVJfggDxyNwAh0mYOGG28Z6EpLRc-MHDVzNzWhEet_E4PLZcXBq7eM1EBYNeHK8y_pANz8Hy0UGRw-OCM9cNT1eVa7wY8WIkOW7qycnuW_3XbWnafAhuJyepGB_HYAnUckPIF8sYqeVQhayW1M7gi77aaDyE8KcIO9SJYMzZd6T");'>
-                </div>
-                <div class="rounded-xl bg-center bg-no-repeat bg-cover min-h-[120px] md:min-h-0"
-                  data-alt="A winding path through the green hills of Calabria."
-                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5j25UbVsFdBuBWxBJB0GrrFMUjnt4QeO5Sb6HZJUOYggq3kC6aqwJf_WTPDn9NdbRbx2h_AB_CaqAPd31tFcGucve6y5-vwL1StwkYOYt801_n6p9gzYpxeHEoREFRjE-2Sce-kkyQ10ThtL0Y5Mkq1470HpTDYU-GTpOaxGrod3EyO4COXEDvkCKK0FPNuJdz0ZtGidXgnvEz3Q7qmoxeotR0l9b-pbbDXZvau-bwk7m_fwdh3h9Cx9ssqLuh38OZEy5qvoRc7pX");'>
-                </div>
+            </div>
+          </div>
+          <!-- Hero Section (Mobile Only) -->
+          <section class="relative lg:hidden">
+            <!-- Carousel Background -->
+            <div id="mobile-hero-carousel" class="relative h-[500px] w-full overflow-hidden rounded-xl mb-6 group">
+              <div
+                class="carousel-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-100"
+                style='background-image: url("hero-bg-new.png");'>
               </div>
-              <div class="flex gap-3 flex-wrap">
-                <div class="flex h-8 items-center justify-center gap-x-2 rounded-lg bg-accent text-white px-4">
-                  <p class="text-sm font-medium">3 Giorni</p>
-                </div>
-                <div class="flex h-8 items-center justify-center gap-x-2 rounded-lg bg-accent text-white px-4">
-                  <p class="text-sm font-medium">56 km</p>
-                </div>
-                <div class="flex h-8 items-center justify-center gap-x-2 rounded-lg bg-accent text-white px-4">
-                  <p class="text-sm font-medium">Difficoltà: E</p>
+              <div class="carousel-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRg7VvWmBuqyzcFO3mIdi2UiTnj8zSjdna-nldaOiNkYawWM7V-oW85k7tGzvTjBwFq3YJwlKaVCtL5Mnm3d_LRC7m41Pw5bZEVHhUNIyKnhAhYm0KsUpvvhSCyXDt8-4FfnLrMOOzHjRy7wT25fTq1GPjrkmH4BqqI3Z4T7f8nw7sjJ7ysbhswHtxU37-9zAB7-cKs3tAspGeRYhdDDBLK8GxSlwzMvXyE5x3fCPtCYZHw8AGumJsrkh5BGwhPBFB4hbxZzcUX3a");'>
+              </div>
+              <div class="carousel-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKxD6GwxzgSnS_HdPaOltWKs8KAdHoBh5Mx1Xi1xDOVp5CxhcVxfpCFMRfgFo7TUgIRoXDEffkYw9Z_KVbBrgqBqjSODxPvx0FITVJfggDxyNwAh0mYOGG28Z6EpLRc-MHDVzNzWhEet_E4PLZcXBq7eM1EBYNeHK8y_pANz8Hy0UGRw-OCM9cNT1eVa7wY8WIkOW7qycnuW_3XbWnafAhuJyepGB_HYAnUckPIF8sYqeVQhayW1M7gi77aaDyE8KcIO9SJYMzZd6T");'>
+              </div>
+              <div class="carousel-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 opacity-0"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC5j25UbVsFdBuBWxBJB0GrrFMUjnt4QeO5Sb6HZJUOYggq3kC6aqwJf_WTPDn9NdbRbx2h_AB_CaqAPd31tFcGucve6y5-vwL1StwkYOYt801_n6p9gzYpxeHEoREFRjE-2Sce-kkyQ10ThtL0Y5Mkq1470HpTDYU-GTpOaxGrod3EyO4COXEDvkCKK0FPNuJdz0ZtGidXgnvEz3Q7qmoxeotR0l9b-pbbDXZvau-bwk7m_fwdh3h9Cx9ssqLuh38OZEy5qvoRc7pX");'>
+              </div>
+
+              <!-- Swipe Icon -->
+              <div class="absolute bottom-4 right-4 text-white/80 animate-pulse">
+                <span class="material-symbols-outlined text-3xl">gesture</span>
+              </div>
+
+              <!-- Overlay Content -->
+              <div class="absolute inset-0 bg-black/40 flex flex-col justify-end p-6 text-white rounded-xl">
+                <h1 class="text-3xl font-black tracking-tight mb-2 text-left">
+                  Cammino Kalabria Coast to Coast
+                </h1>
+                <h2 class="text-lg font-medium text-left">
+                  Dallo Ionio al Tirreno a piedi attraverso una regione sorprendente
+                </h2>
+              </div>
+            </div>
+
+            <!-- Description Text -->
+            <div class="flex flex-col gap-4">
+              <h3 class="text-xl font-bold text-secondary dark:text-blue-300">Kalabria Coast To Coast: il trekking tra
+                due mari</h3>
+              <div id="mobile-text-container">
+                <p class="text-text-secondary dark:text-gray-400">
+                  Il Cammino Kalabria Coast to Coast è un trekking di 55 km che attraversa la Calabria, dalla costa
+                  ionica a alla costa tirrenica. Una vacanza che mette insieme mare e montagna, relax e trekking,
+                  compagnia e silenzio. Con passo lento e spirito avventuroso ci addentreremo tra distese di ulivi
+                  secolari e filari di vite. Troveremo refrigerio all’ombra di boschi di castagni. Ci fermeremo per
+                  gustosi picnic tra faggi secolari o lungo le sponde di un lago. Passo dopo passo scopriremo un
+                  percorso dai panorami sorprendenti che anche la rivista americana TIME ha deciso di inserire tra le
+                  migliori 50 destinazioni di tutto il mondo: THE WORLD’S GREATEST PLACES OF 2022
+                </p>
+                <button id="mobile-read-more-btn" class="text-primary font-bold hover:underline text-left w-fit mt-2">
+                  Leggi tutto...
+                </button>
+                <div id="mobile-more-content" class="hidden space-y-4 mt-4">
+                  <h3 class="text-xl font-bold text-secondary dark:text-blue-300">Kalabria coast to coast: tappe e
+                    percorso</h3>
+                  <p class="text-text-secondary dark:text-gray-400">
+                    Partiremo dalle spiagge di Soverato sulla costa degli Aranci dove trascorreremo la prima serata per
+                    conoscerci, rilassarsi e testare le specialità locali. Passeremo poi dalle infradito alle scarpe da
+                    trekking e attraverseremo la zona montana delle Serre calabresi nel punto più stretto d’Italia.
+                  </p>
+                  <p class="text-text-secondary dark:text-gray-400">
+                    Lungo il tragitto conosceremo l’accoglienza dei piccoli borghi di San Vito sullo Ionio e Monterosso
+                    Calabro, esploreremo l’oasi naturalistica del lago Angitola e cammineremo nell’area archeologica
+                    della città normanna di Rocca Angitola. Lungo la terza tappa scorgeremo una sottile linea blu scuro
+                    all’orizzonte: è la nostra meta che si avvicina, il sentiero è in discesa. Nelle giornate più
+                    limpide potremmo scorgere in lontananza il profilo di Stromboli.
+                  </p>
+                  <p class="text-text-secondary dark:text-gray-400">
+                    Il cammino calabrese si conclude a Pizzo, piccolo borgo arroccato su un promontorio di tufo della
+                    Costa degli Dei. L’ultima serata la trascorreremo qui, degustando il famoso tartufo e lasciandoci
+                    con un tramonto mozzafiato sulle Isole Eolie.
+                  </p>
+                  <button id="mobile-hide-btn" class="text-primary font-bold hover:underline text-left w-fit">
+                    Nascondi
+                  </button>
                 </div>
               </div>
             </div>
@@ -195,6 +358,8 @@
           <section id="itinerario">
             <h2 class="text-secondary dark:text-blue-300 text-[22px] font-bold tracking-[-0.015em] pb-3 pt-5">Itinerario
               di Viaggio</h2>
+            <img src="tappe-cammino.png" alt="Mappa Tappe"
+              class="w-full rounded-xl mb-6 border border-border-color dark:border-gray-700">
             <div class="space-y-4">
               <details
                 class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark"
@@ -338,10 +503,55 @@
               </details>
             </div>
           </section>
+
+          <!-- Chi Siamo Section -->
+          <section id="chi-siamo">
+            <h2 class="text-secondary dark:text-blue-300 text-[22px] font-bold tracking-[-0.015em] pb-3 pt-5">Chi Siamo
+            </h2>
+            <p class="text-text-secondary dark:text-gray-400 mb-6">
+              Europe Guest è il primo Tour Operator ad aver reso accessibile questo itinerario. Una presenza solida sul
+              territorio che assicura un’organizzazione impeccabile e distintiva. Vivi l'esperienza autentica del
+              cammino con la sicurezza di chi lo ha tracciato per primo.
+            </p>
+            <div class="grid grid-cols-3 gap-4">
+              <div class="flex flex-col items-center gap-2 text-center">
+                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <span class="material-symbols-outlined">military_tech</span>
+                </div>
+                <span class="text-sm font-bold text-text-primary dark:text-white">Primi Organizzatori</span>
+              </div>
+              <div class="flex flex-col items-center gap-2 text-center">
+                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <span class="material-symbols-outlined">verified_user</span>
+                </div>
+                <span class="text-sm font-bold text-text-primary dark:text-white">Sicurezza garantita</span>
+              </div>
+              <div class="flex flex-col items-center gap-2 text-center">
+                <div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                  <span class="material-symbols-outlined">map</span>
+                </div>
+                <span class="text-sm font-bold text-text-primary dark:text-white">Presenza sul territorio</span>
+              </div>
+            </div>
+          </section>
+
           <!-- Reviews -->
           <section id="recensioni">
             <h2 class="text-secondary dark:text-blue-300 text-[22px] font-bold tracking-[-0.015em] pb-3 pt-5">Recensioni
             </h2>
+            <div
+              class="flex items-center gap-2 mb-4 bg-white dark:bg-gray-800 p-2 rounded-lg border border-border-color dark:border-gray-700 w-fit">
+              <div class="flex -space-x-2">
+                <div
+                  class="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs font-bold">
+                  f</div>
+                <div
+                  class="w-6 h-6 rounded-full bg-red-500 flex items-center justify-center text-white text-xs font-bold">
+                  G</div>
+              </div>
+              <span class="text-sm font-bold text-text-primary dark:text-white">+100 recensioni su Google e
+                Facebook</span>
+            </div>
             <div class="flex overflow-x-auto gap-6 pb-4 snap-x snap-mandatory scrollbar-hide">
               <!-- Review 1 -->
               <div
@@ -400,12 +610,12 @@
           <!-- Pricing & Inclusions -->
           <section id="prezzi">
             <h2 class="text-secondary dark:text-blue-300 text-[22px] font-bold tracking-[-0.015em] pb-3 pt-5">Prezzi
-              &amp;
-              Inclusione</h2>
+            </h2>
             <div
               class="p-6 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
               <p class="text-text-secondary dark:text-gray-400 text-sm">A partire da</p>
-              <p class="text-primary text-5xl font-extrabold mb-6">€297,00</p>
+              <p class="text-primary text-5xl font-extrabold">€297,00</p>
+              <p class="text-text-secondary dark:text-gray-400 text-sm mb-6">+ €50,00 cassa comune</p>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <h3 class="font-bold text-lg text-text-primary dark:text-white mb-2">Cosa è incluso</h3>
@@ -413,14 +623,15 @@
                     <li class="flex items-center gap-2"><span
                         class="material-symbols-outlined text-accent">check_circle</span> 2 notti in B&amp;B</li>
                     <li class="flex items-center gap-2"><span
-                        class="material-symbols-outlined text-accent">check_circle</span> Tutte le colazioni e le cene
+                        class="material-symbols-outlined text-accent">check_circle</span> Mezza pensione
                     </li>
                     <li class="flex items-center gap-2"><span
-                        class="material-symbols-outlined text-accent">check_circle</span> Guida Ambientale
-                      Escursionistica
+                        class="material-symbols-outlined text-accent">check_circle</span> Guida AIGAE a supporto
                     </li>
                     <li class="flex items-center gap-2"><span
-                        class="material-symbols-outlined text-accent">check_circle</span> Assicurazione</li>
+                        class="material-symbols-outlined text-accent">check_circle</span> Kit del camminatore</li>
+                    <li class="flex items-center gap-2"><span
+                        class="material-symbols-outlined text-accent">check_circle</span> Assicurazione medica</li>
                   </ul>
                 </div>
                 <div>
@@ -453,21 +664,15 @@
                 <img class="w-24 h-24 rounded-full object-cover" data-alt="Portrait of Angelo Toro"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtXLnXEeoSOVQIQo9l3rO5G-V0C2Kb7Lo0c8r_XtxWRszMiO79AJC6X_7M9hs5X0TSJyLzcccn7PU4zlmOrEbkOeTjGmTBB6r5M4pc-St8O27PEOlUwPeNxtQ9JC9mCglrECg8-2Z-j58A5aqPakPd2Wp4JIsTV1hb9Wk-lwDRdhgJgfcFqwMyFwwgl8QLqd25_shlZlHq26tD4fIoDPKWQ14zux1xC_eEEZtz-sSnO4Zk8RcDl-AHiT1dxvcPWBzBOq6E9EPFtqwM" />
                 <h4 class="font-bold text-text-primary dark:text-white">Angelo Toro</h4>
-                <p class="text-sm text-text-secondary dark:text-gray-400">Coordinatore Viaggio</p>
+                <p class="text-sm text-text-secondary dark:text-gray-400">Proprietario di EUROPEGUEST</p>
               </div>
               <div
                 class="p-6 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark flex flex-col items-center gap-3">
                 <img class="w-24 h-24 rounded-full object-cover" data-alt="Portrait of Marco Pinsa"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7sfrr5pJmHJwTk7l75fD7PRiQtDnn7xfZhLuaBj1VyYl0DMZbWEoVAK_FyJDkFqUTBqF6yBc7_pb0SpdFs9mLMKqkIdAxg-Md-jXcAumqBxJ24euCXi3TtrEQvdukiXz9VYEmYJffgQuo98hfF7MDGsju0N8YtbpAVH09Rr_tH9FNOSYRCwMZEfYAy-qrqhF1TyJfdOZehCVnygrsbJtVjDr0uJCWEMnRZBoCoyXL2GtSDEc7OZnERud6xsrF3dLTUcd_W7_rs4Cu" />
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7sfrr5pJmHJwTk7l75fD7PRiQtDnn7xfZhLuaBj1VyYl0DMZbWEoVAK_FyJDkFqUTBqF6yBc7_pb0SpdFs9mLMKqkIdAxg-Md-jXcAumqBxJ24euCXi3TtrEQvdukiXz9VYEmYJffgQuo98hfF7MDGsju0N8YtbpAVH09Rr_tH9FNOSYRCwMZEfYAy-qrqhF1TyJfdLTUcd_W7_rs4Cu" />
                 <h4 class="font-bold text-text-primary dark:text-white">Marco Pinsa</h4>
-                <p class="text-sm text-text-secondary dark:text-gray-400">Guida Ambientale</p>
-              </div>
-              <div
-                class="p-6 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark flex flex-col items-center gap-3">
-                <img class="w-24 h-24 rounded-full object-cover" data-alt="Portrait of a Local Guide"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdf4fnasUmq3eVNx4sBKstTGnQZbtQnBN3c2ddQ7CaMKaqO4RqxcjcWmSRa1UYYKyyEBvylGqICWvW8m-PIcRjmplhd0lh-UYMZKZqlc1A4_SYJg9Ysfyx_J2yry4hwD8DuQQCQBAGTHBGjZUmPcCmzehzrdR47Ge1KN8rtmN7HO9DsDzSQTjLRWLR5E1ABfMXbM0A-OxF1rdGhuY-MID59rNHS81FpC9GXQMeIKrLqM-ViADb1YwtnROxqah8jeNe5t3fvHAmvB8n" />
-                <h4 class="font-bold text-text-primary dark:text-white">Guida Locale</h4>
-                <p class="text-sm text-text-secondary dark:text-gray-400">Esperto del Territorio</p>
+                <p class="text-sm text-text-secondary dark:text-gray-400">Fondatore del cammino Kalabria Coast To Coast
+                </p>
               </div>
             </div>
           </section>
@@ -476,36 +681,196 @@
             <h2 class="text-secondary dark:text-blue-300 text-[22px] font-bold tracking-[-0.015em] pb-3 pt-5">Domande
               Frequenti</h2>
             <div class="space-y-4">
+              <!-- FAQ 1 -->
               <details
                 class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
                 <summary class="flex justify-between items-center cursor-pointer list-none">
-                  <h3 class="text-lg font-bold text-text-primary dark:text-white">È richiesto un allenamento specifico?
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">In cosa consiste il tour e qual è il
+                    livello di difficoltà?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>Il Kalabria Coast to Coast è un cammino naturalistico di 56,3 km che collega il Mar Ionio
+                    (Soverato) al Mar Tirreno (Pizzo), attraversando la striscia di terra più stretta d'Italia. Il
+                    percorso è classificato come E (Escursionistico). È suddiviso in 3 tappe:</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li><strong>Giorno 1:</strong> 13,6 km (Dislivello +716m / -327m).</li>
+                    <li><strong>Giorno 2:</strong> 23,5 km (Dislivello +979m / -1085m) – Tappa media/difficile.</li>
+                    <li><strong>Giorno 3:</strong> 19,6 km (Dislivello +585m / -864m).</li>
+                  </ul>
+                  <p class="mt-2">È necessario un buono stato di salute e abitudine al cammino, poiché si attraversano
+                    sentieri sterrati (fino al 70% in alcune tappe) e tratti montani.</p>
+                </div>
+              </details>
+
+              <!-- FAQ 2 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Quali sono le date disponibili per il
+                    2025?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>Il tour si svolge in diversi weekend lunghi (da venerdì a domenica) da marzo a novembre. Ecco le
+                    date confermate:</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li><strong>Marzo:</strong> 28-30</li>
+                    <li><strong>Aprile:</strong> 25-27</li>
+                    <li><strong>Maggio:</strong> 2-4 | 30 Maggio - 1 Giugno</li>
+                    <li><strong>Giugno:</strong> 20-22</li>
+                    <li><strong>Luglio:</strong> 11-13</li>
+                    <li><strong>Settembre:</strong> 5-7 | 26-28</li>
+                    <li><strong>Ottobre:</strong> 17-19 | 31 Ottobre - 2 Novembre</li>
+                  </ul>
+                </div>
+              </details>
+
+              <!-- FAQ 3 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Quanto costa partecipare e cosa è
+                    incluso?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>La quota di partecipazione è di € 297,00 (da versare via bonifico) + € 50,00 di cassa comune (da
+                    versare in loco). La quota include:</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>2 pernottamenti in B&B o Agriturismi (camere doppie/twin).</li>
+                    <li>Trattamento di mezza pensione: 2 colazioni, 2 cene (bevande incluse) e 3 pranzi al sacco.</li>
+                    <li>Guida escursionistica e auto di supporto in caso di necessità.</li>
+                    <li>Assicurazione medica, passaporto del camminatore e "testimonium".</li>
+                  </ul>
+                  <p class="mt-2"><strong>Non include:</strong> Viaggio per raggiungere la Calabria, assicurazione
+                    annullamento (opzionale €30/€35) e tutto quanto non specificato.</p>
+                </div>
+              </details>
+
+              <!-- FAQ 4 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Come funziona per il pernottamento?
+                    Posso avere una camera singola?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>Il pernottamento avviene in strutture ricettive come B&B o Agriturismi a Petrizzi e Monterosso
+                    Calabro. Il prezzo base prevede la sistemazione in camera doppia condivisa.</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>È possibile richiedere la camera singola con un supplemento di € 55,00.</li>
+                    <li>Se viaggi da solo/a ma accetti di condividere la stanza con un altro partecipante dello stesso
+                      sesso, risparmi il supplemento. Se non ci sono altri partecipanti per la condivisione, il
+                      supplemento è scontato al 50% (€ 27,50).</li>
+                  </ul>
+                </div>
+              </details>
+
+              <!-- FAQ 5 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Cosa devo portare? C'è il trasporto
+                    bagagli?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>È richiesto un abbigliamento "a strati" adatto alla stagione, giacca impermeabile/k-way e scarpe da
+                    trekking (consigliate basse) o da running robuste (evitare scarpe nuove mai usate).</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li><strong>Durante il cammino:</strong> Devi portare uno zaino giornaliero (ca. 30 litri) con acqua
+                      (consigliata scorta abbondante), snack e ricambi.</li>
+                    <li><strong>Bagaglio principale:</strong> È disponibile un servizio di trasporto bagagli
+                      (valigia/borsone max 56x45x25cm) che verrà presa in consegna al mattino e fatta ritrovare alla
+                      tappa successiva. Nota: il testo cita "Chi acquista il servizio", verifica al momento della
+                      prenotazione se incluso o extra.</li>
+                  </ul>
+                </div>
+              </details>
+
+              <!-- FAQ 6 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Come funzionano i pasti e l'acqua
+                    lungo il percorso?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <ul class="list-disc pl-5 space-y-1">
+                    <li><strong>Cena:</strong> Prodotti tipici in struttura (primo, secondo, contorno, dolce, acqua e
+                      vino locale inclusi).</li>
+                    <li><strong>Pranzo:</strong> Viene fornito un pranzo al sacco (focaccia/panino, dolce, frutta, acqua
+                      e bibita) consegnato dal referente di zona.</li>
+                    <li><strong>Acqua:</strong> È fondamentale partire con una buona scorta d'acqua, specialmente nella
+                      prima e terza tappa dove non ci sono fonti lungo il percorso fino all'arrivo. Nella seconda tappa
+                      are present fontane e sorgenti.</li>
+                  </ul>
+                </div>
+              </details>
+
+              <!-- FAQ 7 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Come prenotare e quali sono le
+                    politiche di cancellazione?</h3>
+                  <span
+                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
+                    <span class="material-symbols-outlined">expand_more</span>
+                  </span>
+                </summary>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>Per prenotare è necessario inviare una mail, verificare la disponibilità e versare un acconto di €
+                    100,00 (non rimborsabile). Il saldo di € 197,00 va versato entro 14 giorni dalla partenza.</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li><strong>Recesso:</strong> Cancellazione gratuita (persa solo la caparra) fino a 8 giorni
+                      lavorativi prima. Penale del 50% tra 7 e 3 giorni prima; penale del 100% sotto i 3 giorni.</li>
+                    <li><strong>Conferma tour:</strong> Il tour è confermato al raggiungimento di minimo 8 partecipanti
+                      (conferma inviata entro 12 giorni dalla data).</li>
+                  </ul>
+                </div>
+              </details>
+
+              <!-- FAQ 8 -->
+              <details
+                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
+                <summary class="flex justify-between items-center cursor-pointer list-none">
+                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Possono partecipare bambini o ragazzi?
                   </h3>
                   <span
                     class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
                     <span class="material-symbols-outlined">expand_more</span>
                   </span>
                 </summary>
-                <p class="mt-4 text-text-secondary dark:text-gray-400">È consigliato un buon livello di allenamento alla
-                  camminata in montagna. Il percorso presenta dislivelli e tappe di circa 15-20 km al giorno. È
-                  importante
-                  essere abituati a camminare per più ore consecutive.</p>
-              </details>
-              <details
-                class="group p-4 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark">
-                <summary class="flex justify-between items-center cursor-pointer list-none">
-                  <h3 class="text-lg font-bold text-text-primary dark:text-white">Che tipo di equipaggiamento devo
-                    portare?</h3>
-                  <span
-                    class="text-secondary dark:text-blue-300 transition-transform duration-300 group-open:rotate-180">
-                    <span class="material-symbols-outlined">expand_more</span>
-                  </span>
-                </summary>
-                <p class="mt-4 text-text-secondary dark:text-gray-400">Sono indispensabili scarponi da trekking, zaino
-                  da
-                  30/40 litri, abbigliamento a strati, giacca impermeabile, borraccia, cappello e crema solare. Una
-                  lista
-                  dettagliata verrà fornita al momento della prenotazione.</p>
+                <div class="mt-4 text-text-secondary dark:text-gray-400">
+                  <p>Il tour è riservato ad adulti maggiorenni.</p>
+                  <ul class="list-disc pl-5 mt-2 space-y-1">
+                    <li>I minori tra i 16 e i 18 anni possono partecipare solo se accompagnati da un genitore/tutore e
+                      con consenso scritto.</li>
+                    <li>I ragazzi sotto i 16 anni non sono ammessi.</li>
+                  </ul>
+                </div>
               </details>
             </div>
           </section>
@@ -515,7 +880,9 @@
           <div class="sticky top-24">
             <div
               class="p-6 rounded-xl border border-border-color dark:border-gray-700 bg-content-light dark:bg-content-dark shadow-lg">
-              <h3 class="text-xl font-bold text-text-primary dark:text-white mb-4">Prenota la tua avventura</h3>
+              <h3 class="text-xl font-bold text-text-primary dark:text-white mb-2">Ottieni maggiori informazioni</h3>
+              <p class="text-sm text-text-secondary dark:text-gray-400 mb-4">Compila il modulo per scaricare il
+                programma e ottenere tutte le informazioni sul cammino</p>
               <form class="space-y-4">
                 <div>
                   <label class="block text-sm font-medium text-text-primary dark:text-gray-300" for="name">Nome</label>
@@ -576,7 +943,7 @@
                 </div>
                 <button
                   class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
-                  type="submit">Richiedi Disponibilità e Scarica Brochure</button>
+                  type="submit">Scarica il programma</button>
               </form>
             </div>
           </div>
@@ -584,17 +951,19 @@
       </div>
     </main>
   </div>
-  <!-- Mobile Sticky Footer -->
-  <div
-    class="lg:hidden fixed bottom-0 left-0 right-0 bg-content-light dark:bg-content-dark border-t border-border-color dark:border-gray-700 p-4 flex justify-between items-center z-40">
-    <div>
-      <p class="text-sm text-text-secondary dark:text-gray-400">Da</p>
-      <p class="font-bold text-xl text-primary">€297</p>
+  <!-- Mobile Sticky Bar -->
+  <div id="mobile-sticky-bar"
+    class="fixed bottom-0 left-0 right-0 bg-white dark:bg-gray-800 border-t border-border-color dark:border-gray-700 p-4 lg:hidden z-40 hidden transition-transform duration-300 translate-y-full">
+    <div class="flex items-center justify-between gap-4">
+      <div class="flex flex-col">
+        <span class="text-xs text-text-secondary dark:text-gray-400">A partire da</span>
+        <span class="text-lg font-bold text-primary">€297,00</span>
+      </div>
+      <button
+        class="flex-1 bg-primary text-white font-bold py-3 px-4 rounded-lg shadow-lg hover:bg-opacity-90 transition-colors">
+        Scarica il programma
+      </button>
     </div>
-    <button
-      class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold tracking-[0.015em]">
-      <span class="truncate">Scarica Programma</span>
-    </button>
   </div>
 
   <!-- Footer -->
@@ -604,7 +973,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
         <div class="col-span-1 md:col-span-2">
           <div class="flex items-center gap-2 text-text-primary dark:text-white mb-4">
-            <span class="material-symbols-outlined text-secondary text-3xl">crossword</span>
+            <img src="logo-europeguest.jpg" alt="Europe Guest Logo" class="h-10 w-auto">
             <h2 class="text-xl font-bold">EUROPE GUEST</h2>
           </div>
           <p class="text-text-secondary dark:text-gray-400 max-w-sm">
@@ -615,18 +984,17 @@
         <div>
           <h3 class="font-bold text-text-primary dark:text-white mb-4">Contatti</h3>
           <ul class="space-y-2 text-text-secondary dark:text-gray-400 text-sm">
-            <li>Via Roma 123, 88100 Catanzaro (CZ)</li>
-            <li>P.IVA: 12345678901</li>
-            <li>Tel: +39 0961 123456</li>
+            <li>Via Giacomo Mancini, 150 Cosenza IT</li>
+            <li>P.IVA: 09566380961</li>
+            <li>Tel: +39 0984 181 15 40</li>
             <li>Email: info@europeguest.com</li>
           </ul>
         </div>
         <div>
-          <h3 class="font-bold text-text-primary dark:text-white mb-4">Legal</h3>
+          <h3 class="font-bold text-text-primary dark:text-white mb-4">Informazioni legali</h3>
           <ul class="space-y-2 text-text-secondary dark:text-gray-400 text-sm">
             <li><a href="#" class="hover:text-primary">Privacy Policy</a></li>
             <li><a href="#" class="hover:text-primary">Cookie Policy</a></li>
-            <li><a href="#" class="hover:text-primary">Termini e Condizioni</a></li>
           </ul>
         </div>
       </div>
@@ -647,6 +1015,7 @@
     </div>
     <div class="flex flex-col p-4 gap-6 overflow-y-auto">
       <a class="mobile-link text-text-primary dark:text-gray-300 text-lg font-medium" href="#itinerario">Itinerario</a>
+      <a class="mobile-link text-text-primary dark:text-gray-300 text-lg font-medium" href="#chi-siamo">Chi Siamo</a>
       <a class="mobile-link text-text-primary dark:text-gray-300 text-lg font-medium" href="#recensioni">Recensioni</a>
       <a class="mobile-link text-text-primary dark:text-gray-300 text-lg font-medium" href="#prezzi">Prezzi</a>
       <a class="mobile-link text-text-primary dark:text-gray-300 text-lg font-medium" href="#faq">FAQ</a>
@@ -667,7 +1036,11 @@
       class="absolute bottom-0 left-0 right-0 bg-content-light dark:bg-content-dark rounded-t-2xl p-6 max-h-[90vh] overflow-y-auto transform transition-transform duration-300 translate-y-full"
       id="modal-content">
       <div class="flex justify-between items-center mb-6">
-        <h3 class="text-xl font-bold text-text-primary dark:text-white">Richiedi Programma</h3>
+        <div>
+          <h3 class="text-xl font-bold text-text-primary dark:text-white">Ottieni maggiori informazioni</h3>
+          <p class="text-sm text-text-secondary dark:text-gray-400 mt-1">Compila il modulo per scaricare il programma e
+            ottenere tutte le informazioni sul cammino</p>
+        </div>
         <button id="close-modal-btn" class="text-text-secondary dark:text-gray-400 p-2">
           <span class="material-symbols-outlined">close</span>
         </button>
@@ -732,7 +1105,7 @@
         </div>
         <button
           class="w-full flex justify-center py-4 px-4 border border-transparent rounded-lg shadow-sm text-base font-bold text-white bg-primary hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary mt-6"
-          type="submit">Richiedi Disponibilità</button>
+          type="submit">Scarica il programma</button>
       </form>
     </div>
   </div>
@@ -765,7 +1138,7 @@
     // Select all buttons that should open the modal
     // 1. The button in the sticky footer
     // 2. The button in the mobile menu
-    const openModalBtns = document.querySelectorAll('.lg\\:hidden button, #mobile-menu button');
+    const openModalBtns = document.querySelectorAll('.lg\\:hidden .bg-primary, #mobile-menu .bg-primary');
 
     function openModal() {
       bookingModal.classList.remove('hidden');
@@ -801,6 +1174,122 @@
 
     closeModalBtn.addEventListener('click', closeModal);
     modalBackdrop.addEventListener('click', closeModal);
+
+    // Read More Logic (Mobile)
+    const mobileReadMoreBtn = document.getElementById('mobile-read-more-btn');
+    const mobileMoreContent = document.getElementById('mobile-more-content');
+    const mobileHideBtn = document.getElementById('mobile-hide-btn');
+
+    if (mobileReadMoreBtn && mobileMoreContent && mobileHideBtn) {
+      mobileReadMoreBtn.addEventListener('click', () => {
+        mobileMoreContent.classList.remove('hidden');
+        mobileReadMoreBtn.classList.add('hidden');
+      });
+
+      mobileHideBtn.addEventListener('click', () => {
+        mobileMoreContent.classList.add('hidden');
+        mobileReadMoreBtn.classList.remove('hidden');
+      });
+    }
+
+    // Read More Logic (Desktop)
+    const desktopReadMoreBtn = document.getElementById('desktop-read-more-btn');
+    const desktopMoreContent = document.getElementById('desktop-more-content');
+    const desktopHideBtn = document.getElementById('desktop-hide-btn');
+
+    if (desktopReadMoreBtn && desktopMoreContent && desktopHideBtn) {
+      desktopReadMoreBtn.addEventListener('click', () => {
+        desktopMoreContent.classList.remove('hidden');
+        desktopReadMoreBtn.classList.add('hidden');
+      });
+
+      desktopHideBtn.addEventListener('click', () => {
+        desktopMoreContent.classList.add('hidden');
+        desktopReadMoreBtn.classList.remove('hidden');
+      });
+    }
+
+    // Hero Carousel Logic
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+
+    function nextSlide() {
+      slides[currentSlide].classList.remove('opacity-100');
+      slides[currentSlide].classList.add('opacity-0');
+
+      currentSlide = (currentSlide + 1) % slides.length;
+
+      slides[currentSlide].classList.remove('opacity-0');
+      slides[currentSlide].classList.add('opacity-100');
+    }
+
+    setInterval(nextSlide, 3000);
+
+
+    closeModalBtn.addEventListener('click', closeModal);
+    modalBackdrop.addEventListener('click', closeModal);
+  </script>
+  <!-- Gallery Modal -->
+  <div id="gallery-modal" class="fixed inset-0 z-[80] hidden">
+    <div class="absolute inset-0 bg-black/90 backdrop-blur-sm" id="gallery-backdrop"></div>
+    <div class="absolute inset-0 flex items-center justify-center p-4">
+      <div class="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto bg-transparent rounded-xl">
+        <button id="close-gallery-btn"
+          class="absolute top-4 right-4 z-50 text-white bg-black/50 rounded-full p-2 hover:bg-black/70">
+          <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <img src="hero-bg-new.png" class="w-full rounded-lg">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRg7VvWmBuqyzcFO3mIdi2UiTnj8zSjdna-nldaOiNkYawWM7V-oW85k7tGzvTjBwFq3YJwlKaVCtL5Mnm3d_LRC7m41Pw5bZEVHhUNIyKnhAhYmO0KsUpvvhSCyXDt8-4FfnLrMOOzHjRy7wT25fTq1GPjrkmH4BqqI3Z4T7f8nw7sjJ7ysbhswHtxU37-9zAB7-cKs3tAspGeRYhdDDBLK8GxSlwzMvXyE5x3fCPtCYZHw8AGumJsrkh5BGwhPBFB4hbxZzcUX3a"
+            class="w-full rounded-lg">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKxD6GwxzgSnS_HdPaOltWKs8KAdHoBh5Mx1Xi1xDOVp5CxhcVxfpCFMRfgFo7TUgIRoXDEffkYw9Z_KVbBrgqBqjSODxPvx0FITVJfggDxyNwAh0mYOGG28Z6EpLRc-MHDVzNzWhEet_E4PLZcXBq7eM1EBYNeHK8y_pANz8Hy0UGRw-OCM9cNT1eVa7wY8WIkOW7qycnuW_3XbWnafAhuJyepGB_HYAnUckPIF8sYqeVQhayW1M7gi77aaDyE8KcIO9SJYMzZd6T"
+            class="w-full rounded-lg">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5j25UbVsFdBuBWxBJB0GrrFMUjnt4QeO5Sb6HZJUOYggq3kC6aqwJf_WTPDn9NdbRbx2h_AB_CaqAPd31tFcGucve6y5-vwL1StwkYOYt801_n6p9gzYpxeHEoREFRjE-2Sce-kkyQ10ThtL0Y5Mkq1470HpTDYU-GTpOaxGrod3EyO4COXEDvkCKK0FPNuJdz0ZtGidXgnvEz3Q7qmoxeotR0l9b-pbbDXZvau-bwk7m_fwdh3h9Cx9ssqLuh38OZEy5qvoRc7pX"
+            class="w-full rounded-lg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Gallery Modal Logic
+    const galleryModal = document.getElementById('gallery-modal');
+    const closeGalleryBtn = document.getElementById('close-gallery-btn');
+    const galleryBackdrop = document.getElementById('gallery-backdrop');
+    const seeMoreBtn = document.getElementById('see-more-photos-btn');
+
+    if (seeMoreBtn && galleryModal) {
+      seeMoreBtn.addEventListener('click', () => {
+        galleryModal.classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+      });
+
+      const closeGallery = () => {
+        galleryModal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      };
+
+      closeGalleryBtn.addEventListener('click', closeGallery);
+      galleryBackdrop.addEventListener('click', closeGallery);
+    }
+
+    // Mobile Sticky Bar Scroll Logic
+    const mobileStickyBar = document.getElementById('mobile-sticky-bar');
+    const mobileHeroCarousel = document.getElementById('mobile-hero-carousel');
+
+    if (mobileStickyBar && mobileHeroCarousel) {
+      window.addEventListener('scroll', () => {
+        const carouselBottom = mobileHeroCarousel.offsetTop + mobileHeroCarousel.offsetHeight;
+        if (window.scrollY > carouselBottom) {
+          mobileStickyBar.classList.remove('hidden', 'translate-y-full');
+        } else {
+          mobileStickyBar.classList.add('hidden', 'translate-y-full');
+        }
+      });
+    }
   </script>
 </body>
 
